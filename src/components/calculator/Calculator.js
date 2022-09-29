@@ -13,14 +13,9 @@ const Calculator = (props) => {
         totalTime = parseFloat(JSON.parse(storedLocalCooking));
     }
     const [breakTime, setBreakData] = useState(0);
-    const storedBreak = localStorage.getItem('break-time');
-    if (storedBreak) {
-        setBreakData(storedBreak)
-    }
     const breakBtn = (btnData) => {
         setBreakData(btnData);
     }
-    localStorage.setItem('break-time', JSON.stringify(breakTime))
 
     return (
         <div>
