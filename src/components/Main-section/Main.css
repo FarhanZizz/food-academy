@@ -1,0 +1,23 @@
+.main-grid {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 50px;
+    width: 94%;
+    margin: auto;
+}
+
+.food-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-grid {
+        display: block;
+    }
+
+    .food-container {
+        display: block;
+    }
+}

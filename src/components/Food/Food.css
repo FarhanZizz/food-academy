@@ -1,0 +1,18 @@
+.food {
+    padding: 20px;
+    box-shadow: 10px 10px 37px -8px rgba(0, 0, 0, 0.31);
+    border-radius: 20px;
+}
+
+.food img {
+    width: 100%;
+}
+
+.food button {
+    background-color: skyblue;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    font-weight: bold;
+    border-radius: 15px;
+}

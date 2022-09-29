@@ -1,0 +1,44 @@
+[
+    {
+        "id": "63355705c04dfd99f9ea14ba",
+        "picture": "https://www.themealdb.com/images/media/meals/0jv5gx1661040802.jpg",
+        "calories": 270,
+        "name": "Fettuccine Alfredo",
+        "time": 700
+    },
+    {
+        "id": "63355705a076b5c8a407cae0",
+        "picture": "https://www.themealdb.com/images/media/meals/u9l7k81628771647.jpg",
+        "calories": 879,
+        "name": "Walnut Roll Gužvara",
+        "time": 300
+    },
+    {
+        "id": "633557052d1a3097a08671ca",
+        "picture": "https://www.themealdb.com/images/media/meals/g046bb1663960946.jpg",
+        "calories": 871,
+        "name": "Sushi",
+        "time": 659
+    },
+    {
+        "id": "63355705e1e38545ce805d75",
+        "picture": "https://www.themealdb.com/images/media/meals/n7qnkb1630444129.jpg",
+        "calories": 918,
+        "name": "Chivito uruguayo",
+        "time": 129
+    },
+    {
+        "id": "6335570579f3aef53ddfc875",
+        "picture": "https://www.themealdb.com/images/media/meals/nv5lf31628771380.jpg",
+        "calories": 949,
+        "name": "Fresh sardines",
+        "time": 822
+    },
+    {
+        "id": "63355705eb2b394927f6a96e",
+        "picture": "https://www.themealdb.com/images/media/meals/tkxquw1628771028.jpg",
+        "calories": 450,
+        "name": "Burek",
+        "time": 337
+    }
+]
