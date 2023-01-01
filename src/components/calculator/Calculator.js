@@ -4,18 +4,19 @@ import './Calculator.css'
 const Calculator = (props) => {
     const { summary } = props;
     let totalTime = 0;
-    const storedLocalCooking = localStorage.getItem('cooking-time');
     for (const food of summary) {
         totalTime = totalTime + food.time;
-        localStorage.setItem('cooking-time', JSON.stringify(totalTime))
     }
-    if (storedLocalCooking) {
-        totalTime = parseFloat(JSON.parse(storedLocalCooking));
+    let [breakTime, setBreakData] = useState(0);
+    const storedBreakTime = localStorage.getItem("break-time");
+    if (storedBreakTime) {
+        breakTime = storedBreakTime;
     }
-    const [breakTime, setBreakData] = useState(0);
     const breakBtn = (btnData) => {
         setBreakData(btnData);
+        localStorage.setItem("break-time", btnData)
     }
+
 
     return (
         <div>
